@@ -9,3 +9,7 @@ rollButton.addEventListener("click", () => {
     return randomNumber
 })
 
+const displayDice(number) => {
+    let placeholder = document.getElementById("placeholder")
+    placeholder.innerHTML = number
+}
